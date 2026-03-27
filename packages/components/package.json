@@ -4,6 +4,9 @@
   "description": "基于 Naive UI 的二次封装组件库",
   "author": "@xszs",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./dist/xszs-naive-components.es.js",
