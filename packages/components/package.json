@@ -1,5 +1,5 @@
 {
-  "name": "@xszs-naive-components/components",
+  "name": "@xszs/naive-components",
   "version": "0.0.1",
   "description": "基于 Naive UI 的二次封装组件库",
   "author": "@xszs",
