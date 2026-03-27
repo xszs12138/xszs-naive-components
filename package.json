@@ -7,8 +7,8 @@
   "author": "@xszs",
   "license": "ISC",
   "scripts": {
-    "components:build": "pnpm -F @xszs-naive-components/components build",
-    "components:publish": "pnpm -F @xszs-naive-components/components publish",
+    "components:build": "pnpm -F @xszs/naive-components build",
+    "components:publish": "pnpm -F @xszs/naive-components publish",
     "playground:dev": "pnpm -F @xszs-naive-components/playground dev"
   },
   "keywords": [],
