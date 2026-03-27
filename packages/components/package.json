@@ -6,13 +6,13 @@
   "license": "ISC",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
+      "import": "./dist/xszs-naive-components.es.js",
+      "require": "./dist/xszs-naive-components.umd.js",
+      "default": "./dist/xszs-naive-components.es.js"
     }
   },
-  "module": "index.ts",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./dist/xszs-naive-components.umd.js",
+  "module": "./dist/xszs-naive-components.es.js",
   "files": [
     "dist"
   ],

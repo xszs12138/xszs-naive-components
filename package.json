@@ -8,8 +8,8 @@
   "license": "ISC",
   "scripts": {
     "components:build": "pnpm -F @xszs-naive-components/components build",
-    "playground:dev": "pnpm -F @xszs-naive-components/playground dev",
-    "publish": "pnpm -F @xszs-naive-components/components publish"
+    "components:publish": "pnpm -F @xszs-naive-components/components publish",
+    "playground:dev": "pnpm -F @xszs-naive-components/playground dev"
   },
   "keywords": [],
   "main": "index.js"
