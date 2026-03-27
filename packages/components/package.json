@@ -1,0 +1,35 @@
+{
+  "name": "@xszs-naive-components/components",
+  "version": "0.0.1",
+  "description": "基于 Naive UI 的二次封装组件库",
+  "author": "@xszs",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "module": "index.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "vue": "catalog:"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "catalog:dev",
+    "naive-ui": "catalog:dev",
+    "typescript": "catalog:dev",
+    "vite": "catalog:dev"
+  }
+}
