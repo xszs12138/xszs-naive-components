@@ -29,7 +29,7 @@
   "peerDependencies": {
     "vue": "catalog:"
   },
-  "dependencies": {
+  "devDependencies": {
     "@vitejs/plugin-vue": "catalog:dev",
     "naive-ui": "catalog:dev",
     "typescript": "catalog:dev",

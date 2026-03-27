@@ -1,10 +1,8 @@
 <script setup lang="ts">
+import { NForm} from "naive-ui"
 
-
- 
 </script>
 
 <template>
-  <div>
-  </div>
+  <NForm></NForm>
 </template>
