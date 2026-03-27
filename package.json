@@ -1,16 +1,16 @@
 {
+  "name": "xszs-naive-components",
+  "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "description": "使用menorepo管理的二次封装组件库",
+  "author": "@xszs",
+  "license": "ISC",
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "components:build": "pnpm -F @xszs-naive-components/components build",
+    "playground:dev": "pnpm -F @xszs-naive-components/playground dev",
+    "publish": "pnpm -F @xszs-naive-components/components publish"
   },
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "turbo": "^2.8.20"
-  },
-  "packageManager": "pnpm@8.15.6",
-  "name": "with-vite"
+  "keywords": [],
+  "main": "index.js"
 }
