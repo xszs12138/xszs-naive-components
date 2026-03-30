@@ -9,6 +9,7 @@
   },
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/xszs-naive-components.es.js",
       "require": "./dist/xszs-naive-components.umd.js",
       "default": "./dist/xszs-naive-components.es.js"
@@ -16,6 +17,7 @@
   },
   "main": "./dist/xszs-naive-components.umd.js",
   "module": "./dist/xszs-naive-components.es.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -27,12 +29,15 @@
     "build": "vite build"
   },
   "peerDependencies": {
-    "vue": "catalog:"
+    "naive-ui": "^2.44.0",
+    "vue": "^3.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "catalog:dev",
     "naive-ui": "catalog:dev",
     "typescript": "catalog:dev",
-    "vite": "catalog:dev"
+    "vite": "catalog:dev",
+    "vite-plugin-dts": "catalog:dev",
+    "vue": "catalog:"
   }
 }

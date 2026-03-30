@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.30.3",
-  "description": "使用menorepo管理的二次封装组件库",
+  "description": "使用monorepo管理的二次封装组件库",
   "author": "@xszs",
   "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
   "scripts": {
+    "lint": "eslint . --fix",
     "components:build": "pnpm -F @xszs/naive-components build",
     "components:publish": "pnpm -F @xszs/naive-components publish",
     "playground:dev": "pnpm -F @xszs-naive-components/playground dev"
   },
-  "keywords": [],
-  "main": "index.js"
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:dev",
+    "eslint": "catalog:dev",
+    "eslint-plugin-format": "catalog:",
+    "typescript": "catalog:dev",
+    "vue": "catalog:"
+  }
 }
