@@ -1,5 +1,7 @@
 // export all hooks
 export { default as useTable } from './hooks/useTable'
+
+export { default as dealSpanMethod } from './utils/dealSpanMethod'
 // export all components
 export { default as XForm } from './XForm/index.vue'
 

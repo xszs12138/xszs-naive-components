@@ -13,13 +13,15 @@
       "import": "./dist/xszs-naive-components.es.js",
       "require": "./dist/xszs-naive-components.umd.js",
       "default": "./dist/xszs-naive-components.es.js"
-    }
+    },
+    "./styles/data-table-rowspan-hover.css": "./styles/data-table-rowspan-hover.css"
   },
   "main": "./dist/xszs-naive-components.umd.js",
   "module": "./dist/xszs-naive-components.es.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "styles"
   ],
   "engines": {
     "node": ">=20.0.0"

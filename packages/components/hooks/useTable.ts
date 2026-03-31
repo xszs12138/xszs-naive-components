@@ -65,7 +65,6 @@ export default function useTable<T extends Record<string, unknown> = Record<stri
       options.pagination = pagination
     }
   }
-  console.log('===>', options)
 
   return defineComponent({
     name: 'XTable',
